@@ -10,7 +10,7 @@ import com.db.DBManager;
 public class Service {
 	//登录
     public Boolean login(String username, String password) {
-        // 登录Dql
+        // 登录Sql
         String logSql = "select * from tb_user where user_name ='" + username
                 + "' and user_password ='" + password + "'";
         // 连接数据库
